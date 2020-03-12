@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<section>
+<section class="contact pad-t-2 pad-b-2">
   <div>
     <h1>Send us a sweet little note</h1>
 
@@ -19,17 +19,31 @@
         <label for="name">Name</label>
         <input id="name" required>
       </div>
+
       <div>
         <label for="email">Your Email</label>
         <input id="email" type="email" placeholder="me@me.com" required>
       </div>
+
       <div>
-        <label for="email">Your Email</label>
-        <input id="email" type="email" placeholder="me@me.com" required>
+        <label for="subject">Subject</label>
+        <select id="subject">
+        <option>Get a quote!</option>
+        <option>General question</option>
+        <option>Just to talk</option>
+      </select>
       </div>
+
+      <div>
+        <label for="details">What's up?</label>
+        <textarea id="details" required></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Send message</button>
+      </div>
+
     </form>
-
-
   </div>
 </section>
 
